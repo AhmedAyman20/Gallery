@@ -16,8 +16,9 @@ class Car {
     function get(){                                                // Here it will return the number of cars
         return $this->Car_Numbers;
     }
-    function set($num){                                           // Here it will check then update
-        if ($num==5) $this->Car_Numbers=5;
+    function set($num)
+    {                                           // Here it will check then update
+        if ($num == 5) $this->Car_Numbers = 5;
     }
     function greeting(){
         echo self::$Number++;

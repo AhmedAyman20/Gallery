@@ -9,14 +9,16 @@
                 Admin
                 <small>Subheading</small>
             </h1>
-            <?php                              // QQQQQQQQQ    why for each print users twice ... why database has an error
-                $sql = "SELECT * FROM users WHERE id=1  ";
-                $result = $database->query($sql);
-                $user_found = mysqli_fetch_array($result);    //mysqli_fetch_array it return the query and put it in an array
+            <?php
+               //$user_found = User::get_all_users();
+               //$user_found = User::get_user_by_id(2);
+                $user_found = User::get_user_by_pass(123);
+                //foreach ($user_found as $user) echo $user;
+                //mysqli_fetch_array it return the query and put it in an array
 
-                /*foreach($user_found as $user){
-                    echo $user . "<br>";
-                }*/
+                foreach(mysqli_fetch_array($user_found) as $user){
+                    echo $user['username'] . "<br>";
+                }
 
             ?>
             <ol class="breadcrumb">

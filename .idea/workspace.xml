@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1ea44c-7d94-4c6d-88b0-0e31d4e3509c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/includes/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/admin_content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/new_config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol.php" beforeDir="false" afterPath="$PROJECT_DIR$/lol.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598437340668</updated>
       <workItem from="1598437341743" duration="8860000" />
-      <workItem from="1598513496243" duration="9518000" />
+      <workItem from="1598513496243" duration="18625000" />
     </task>
     <servers />
   </component>
@@ -56,6 +55,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598524427689">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1598524427689" />
     <state x="498" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598452511700">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -64,10 +67,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="550" y="152" key="NewPhpClassDialog/0.0.1440.860@0.0.1440.860" timestamp="1598452742419" />
-    <state x="554" y="353" key="NewPhpFileDialog" timestamp="1598515433861">
+    <state x="554" y="353" key="NewPhpFileDialog" timestamp="1598523912864">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="554" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1598515433861" />
+    <state x="554" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1598523912864" />
     <state x="376" y="83" width="670" height="676" key="search.everywhere.popup" timestamp="1598442134741">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
