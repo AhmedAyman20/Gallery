@@ -13,7 +13,8 @@ class Car {
         echo "Welcome User"."<br>";
     }
 
-    function get(){                                                // Here it will return the number of cars
+    // A getter method is a public Method that access a private property      // Here it will return the number of cars
+    function get(){
         return $this->Car_Numbers;
     }
     function set($num)

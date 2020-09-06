@@ -3,6 +3,7 @@
 
 
 
+// __autoload function is a function that is used to include or require a file to the program so the program can run smoothly
 function __autoload($class){
 
     $class = strtolower($class);
@@ -11,7 +12,7 @@ function __autoload($class){
         require_once($path);
     }
     else{
-        die ("This file called {$path} doesn't exist in this escope");
+        die ("This file called {$path} doesn't exist");
     }
 }
 

@@ -19,7 +19,7 @@ class Database{
     }
 
     public function query($sql){
-        $result = $this->connection->query($sql);     //mysqli_query is a function that performs a query against a databas
+        $result = $this->connection->query($sql);    //mysqli_query is a function that performs a query against a database
         return $result;
     }
 
@@ -27,7 +27,7 @@ class Database{
         if (!$result) die("NO" . $this->connection->error);
     }
 
-    private function escape_string ($string){
+    public function escape_string ($string){
         //$escaped_string = mysqli_real_escape_string($this->connection , $string); //mysqli_real_escape_string
         $escaped_string = $this->connection->real_escape_string($string);
         return $escaped_string;
