@@ -15,6 +15,10 @@ function __autoload($class){
     }
 }
 
+function redirect($location){
+    header("Location:{$location}");
+}
+
 
 
 

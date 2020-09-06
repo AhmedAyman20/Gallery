@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1ea44c-7d94-4c6d-88b0-0e31d4e3509c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/includes/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/session.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/admin_content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/user.php" afterDir="false" />
     </list>
@@ -30,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pdf-editor" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -48,7 +50,14 @@
       <updated>1598437340668</updated>
       <workItem from="1598437341743" duration="8860000" />
       <workItem from="1598513496243" duration="20194000" />
-      <workItem from="1598775947358" duration="12412000" />
+      <workItem from="1598775947358" duration="13791000" />
+      <workItem from="1598865985163" duration="1001000" />
+      <workItem from="1598874816450" duration="3795000" />
+      <workItem from="1598945895778" duration="846000" />
+      <workItem from="1598950327868" duration="1613000" />
+      <workItem from="1599034332628" duration="8943000" />
+      <workItem from="1599116689826" duration="366000" />
+      <workItem from="1599117443057" duration="1474000" />
     </task>
     <servers />
   </component>
@@ -56,22 +65,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598524427689">
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599034796013">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1598524427689" />
-    <state x="498" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598452511700">
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1599034796013" />
+    <state x="498" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598866034968">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="498" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1598452511700" />
+    <state x="498" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1598866034968" />
+    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1599117456256">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1599117456256" />
     <state x="550" y="152" key="NewPhpClassDialog" timestamp="1598452742419">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="550" y="152" key="NewPhpClassDialog/0.0.1440.860@0.0.1440.860" timestamp="1598452742419" />
-    <state x="554" y="353" key="NewPhpFileDialog" timestamp="1598523912864">
+    <state x="554" y="353" key="NewPhpFileDialog" timestamp="1598866235161">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="554" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1598523912864" />
+    <state x="554" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1598866235161" />
     <state x="376" y="83" width="670" height="676" key="search.everywhere.popup" timestamp="1598442134741">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
