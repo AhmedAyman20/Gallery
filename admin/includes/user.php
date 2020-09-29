@@ -22,6 +22,24 @@ class User {
         $the_array = self::get_query("SELECT * FROM users WHERE password = $user_pass");
         return !empty($the_array) ? array_shift($the_array) : false;
     }
+
+
+
+    public static function verify_user($username , $password){
+        global $database;
+        $username = $database->escape_string($username);
+        $password = $database->escape_string($password);
+
+        $sql = "SELECT * FROM users WHERE ";
+        $sql .= "username = '{$username}' ";
+        $sql .= "AND password = '{$password}' ";
+        $sql .= "LIMIT 1";
+
+        $the_array = self::get_query("$sql");
+        return !empty($the_array) ? array_shift($the_array) : false;
+
+    }
+
     public static function get_query($sql){
         global $database;
         $result_set = $database->query($sql);
@@ -31,22 +49,6 @@ class User {
         }
         //$result_arr = mysqli_fetch_array($result_set);
         return $the_object_array;
-    }
-
-
-    public static function verify_user($username , $password){
-        global $database;
-        $username = $database->escape_string($username);
-        $password = $database->escape_string($password);
-
-        $sql = "SELECT * FROM users WHERE";
-        $sql .= "username = '{$username}' ";
-        $sql .= "AND password = '{$password}' ";
-        $sql .= "LIMIT 1";
-
-        $the_array = self::get_query("$sql");
-        return !empty($the_array) ? array_shift($the_array) : false;
-
     }
 
 

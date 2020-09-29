@@ -20,15 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a1ea44c-7d94-4c6d-88b0-0e31d4e3509c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing_File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/top_nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/top_nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol.php" beforeDir="false" afterPath="$PROJECT_DIR$/lol.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pdf-editor" />
@@ -82,7 +82,12 @@
       <workItem from="1599034332628" duration="8943000" />
       <workItem from="1599116689826" duration="366000" />
       <workItem from="1599117443057" duration="1474000" />
-      <workItem from="1599390632507" duration="7431000" />
+      <workItem from="1599390632507" duration="7964000" />
+      <workItem from="1599400870674" duration="92000" />
+      <workItem from="1599400972516" duration="64000" />
+      <workItem from="1599464329872" duration="9120000" />
+      <workItem from="1599641094501" duration="3062000" />
+      <workItem from="1599650824483" duration="11000" />
     </task>
     <servers />
   </component>
@@ -99,6 +104,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599034796013">
@@ -109,10 +118,11 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="498" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1598866034968" />
-    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1599117456256">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="667" y="223" key="FileChooserDialogImpl" timestamp="1599650833302">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1599117456256" />
+    <state x="667" y="223" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599650833302" />
     <state x="550" y="152" key="NewPhpClassDialog" timestamp="1598452742419">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
