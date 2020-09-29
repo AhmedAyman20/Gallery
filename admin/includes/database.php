@@ -33,6 +33,15 @@ class Database{
         return $escaped_string;
     }
 
+    public function the_insert_id(){
+
+        // mysqli_insert_id  return the current id + 1
+        return mysqli_insert_id($this->connection);
+
+
+
+
+    }
 
 }
 

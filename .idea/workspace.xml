@@ -20,14 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a1ea44c-7d94-4c6d-88b0-0e31d4e3509c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Testing_File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/admin_content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_content.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/top_nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/top_nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +31,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,9 +49,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pdf-editor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Basic File" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,7 +64,10 @@
       <recent name="C:\xampp\htdocs\Gallery\admin" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2a1ea44c-7d94-4c6d-88b0-0e31d4e3509c" name="Default Changelist" comment="" />
@@ -88,23 +91,26 @@
       <workItem from="1599464329872" duration="9120000" />
       <workItem from="1599641094501" duration="3062000" />
       <workItem from="1599650824483" duration="11000" />
+      <workItem from="1601363122827" duration="580000" />
+      <workItem from="1601364654630" duration="13112000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -118,11 +124,11 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="498" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1598866034968" />
-    <state x="667" y="223" key="FileChooserDialogImpl" timestamp="1599650833302">
+    <state x="667" y="223" key="FileChooserDialogImpl" timestamp="1601364760006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1599117456256" />
-    <state x="667" y="223" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599650833302" />
+    <state x="667" y="223" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601364760006" />
     <state x="550" y="152" key="NewPhpClassDialog" timestamp="1598452742419">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -131,9 +137,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="554" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1598866235161" />
-    <state x="376" y="83" width="670" height="676" key="search.everywhere.popup" timestamp="1598442134741">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1601365372599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601365372599" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1601363128411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601363128411" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1601379760123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601379760123" />
+    <state x="501" y="100" width="894" height="818" key="search.everywhere.popup" timestamp="1601379865591">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="376" y="83" width="670" height="676" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1598442134741" />
+    <state x="501" y="100" width="894" height="818" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601379865591" />
   </component>
 </project>

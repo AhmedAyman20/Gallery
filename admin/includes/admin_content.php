@@ -55,20 +55,34 @@
 //                echo $user-> username. "<br>";
 
                 // print the user that have the given password if there is no users it will print empty
-                $users = User::get_user_by_pass(123);
+                /*$users = User::get_user_by_pass(123);
                 if (!empty($users)) {
                     foreach ($users as $user) {
                         echo $user->username . "<br>";
                     }
                 }
-                else echo "Empty" ;
+                else echo "Empty" ;*/
+
+//                $user = User::get_user_by_id(9);
+//                $user = new User();
+//                $user->username = "youssef211";
+//                $user->delete();
+
+//                $user = new User();
+//                $user->username = "Ahmed1";
+//                $user->password = "125";
+//                $user->first_name = "Ahmed1";
+//                $user->last_name = "Ayman1";
+//                $user->create();
 
 
+                $user = User::get_user_by_id(12);
+                $user->username = "Ahmed12";
+                $user->password = "1159357";
+                $user->first_name = "Ahmed12";
+                $user->last_name = "Ayman12";
 
-
-
-
-
+                $user->update();
 
 
 
