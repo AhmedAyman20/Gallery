@@ -17,8 +17,8 @@
 //                   echo $row['username'] ."<br>";
 //               }
 
-               //$user_found = User::get_user_by_id(2);
-
+//               $user_found = Photo::find_by_id(4);
+//                echo $user_found->filename;
                 //$user_found = User::get_user_by_pass(123);
 //                while ($row = mysqli_fetch_array($user_found)) {
 //                    echo $row['username'] ."<br>";
@@ -75,14 +75,27 @@
 //                $user->last_name = "Ayman1";
 //                $user->create();
 
+//
+//                $user = User::get_user_by_id(12);
+//                $user->username = "Ahmed12";
+//                $user->password = "1159357";
+//                $user->first_name = "Ahmed12";
+//                $user->last_name = "Ayman12";
+//
+//                $user->update();
 
-                $user = User::get_user_by_id(12);
-                $user->username = "Ahmed12";
-                $user->password = "1159357";
-                $user->first_name = "Ahmed12";
-                $user->last_name = "Ayman12";
+//                $users = Photo::find_all();
+//                foreach ($users as $user){
+//                    echo $user->title ;
+//                }
 
-                $user->update();
+                //$user = new Photo();
+//                $user->title = "just a test photo";
+//                $user->size = "20";
+//                $user->create();
+
+                //echo $user->tmp_path;
+
 
 
 
@@ -103,3 +116,8 @@
 
 </div>
 <!-- /.container-fluid -->
+
+
+
+
+
